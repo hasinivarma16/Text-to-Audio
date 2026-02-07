@@ -5,7 +5,7 @@ from fastapi import FastAPI, Form
 from fastapi.responses import HTMLResponse,FileResponse
 import google.generativeai as genai
 from gtts import gTTS
-
+#run
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 app=FastAPI()
